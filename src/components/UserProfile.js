@@ -1,0 +1,150 @@
+import React from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import List from '@material-ui/core/List';
+import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import InboxIcon from '@material-ui/icons/MoveToInbox';
+import MailIcon from '@material-ui/icons/Mail';
+import UserBooking from "./UserBooking";
+import ProductPageComponent from "./ProductPageComponent";
+import MakeBooking from "./MakeBooking";
+
+const drawerWidth = 240;
+
+const useStyles = (theme => ({
+    root: {
+        display: 'flex',
+    },
+    appBar: {
+        width: `calc(100% - ${drawerWidth}px)`,
+        marginLeft: drawerWidth,
+        backgroundColor: "#B32121"
+    },
+    drawer: {
+        width: drawerWidth,
+        flexShrink: 0,
+
+    },
+    drawerPaper: {
+        width: drawerWidth,
+    },
+    toolbar: theme.mixins.toolbar,
+    content: {
+        flexGrow: 1,
+        backgroundColor: theme.palette.background.default,
+        padding: theme.spacing(3),
+    },
+}));
+
+// function redirectToRegister() {
+//     window.location.href="/register";
+// }
+// function redirectToLogin() {
+//     window.location.href="/login";
+// }
+// function redirectToProduct() {
+//     window.location.href="/product";
+// }
+// function redirectToBookingHistory() {
+//     window.location.href="/user/booking"
+// }
+
+
+
+ class UserProfile extends React.Component{
+     rdo;
+    constructor(props){
+        super(props);
+        this.state={
+            red:"product",
+            prod:""
+        };
+        this.RedirectToProduct = this.RedirectToProduct.bind(this);
+        this.RedirectToBookings = this.RedirectToBookings.bind(this);
+        this.RedirectToMakeBooking = this.RedirectToMakeBooking.bind(this);
+    }
+    RedirectToProduct(){
+        this.setState({red:"product"});
+    }
+    RedirectToBookings(){
+        this.setState({red:"booking"});
+    }
+    RedirectToMakeBooking(){
+        this.setState({red:"book"});
+    }
+
+    RenFun(){
+        /*
+        * use switch case
+        *
+        * */
+        if (this.state.red === "product"){
+            return <ProductPageComponent/>
+        }else if (this.state.red === "booking"){
+            return <UserBooking/>
+        }else if (this.state.red === "book"){
+            return <MakeBooking/>
+        }
+    }
+    render() {
+        const {classes} = this.props;
+        return (
+            <div className={classes.root}>
+                <CssBaseline/>
+                <AppBar position="fixed" className={classes.appBar}>
+                    <Toolbar>
+                        <Typography variant="h6" noWrap>
+                            Auto Wash Booking
+                        </Typography>
+                    </Toolbar>
+                </AppBar>
+                <Drawer
+                    className={classes.drawer}
+                    variant="permanent"
+                    classes={{
+                        paper: classes.drawerPaper,
+                    }}
+                    anchor="left"
+                >
+                    <div className={classes.toolbar}/>
+
+                    <List>
+                        {['Home', 'About', 'Services', 'Contact'].map((text, index) => (
+                            <ListItem button key={text}>
+                                <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
+                                <ListItemText primary={text}/>
+                            </ListItem>
+                        ))}
+                    </List>
+                    <Divider/>
+                    <List>
+                        <ListItem button onClick={this.RedirectToProduct}>
+                            <ListItemIcon><InboxIcon/></ListItemIcon>
+                            <ListItemText>Wash Packages</ListItemText>
+                        </ListItem>
+                        <ListItem button onClick={this.RedirectToMakeBooking}>
+                            <ListItemIcon><InboxIcon/></ListItemIcon>
+                            <ListItemText>Make Booking</ListItemText>
+                        </ListItem>
+                        <ListItem button onClick={this.RedirectToBookings}>
+                            <ListItemIcon><InboxIcon/></ListItemIcon>
+                            <ListItemText>My Bookings</ListItemText>
+                        </ListItem>
+                    </List>
+                </Drawer>
+                <main className={classes.content}>
+                    <div className={classes.toolbar}/>
+                    {this.RenFun()}
+                </main>
+            </div>
+        );
+    }
+}
+export default withStyles(useStyles)(UserProfile)

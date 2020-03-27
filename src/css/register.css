@@ -1,0 +1,29 @@
+.onlyForm{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+
+}
+
+.header1{
+    font-family: Roboto;
+    font-size: 13pt;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.header2{
+    font-family: Roboto;
+    font-size: 18pt;
+    color: #B82F2F;
+    justify-content: center;
+}
+
+.formLabel{
+    font-family: Roboto;
+    color: #B82F2F;
+}
+
+.buttonRegister{
+    justify-content: center;
+}

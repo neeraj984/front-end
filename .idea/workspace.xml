@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4448d83-f285-42d3-adf7-44e2d1b198c9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VMc2sdxkNmIa6PXlDaQ9qYB7qk" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my-app\src" />
+      <recent name="C:\my-app\src\utils" />
+      <recent name="C:\my-app\src\api" />
+      <recent name="C:\Users\dell\my-app\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\my-app\src\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4448d83-f285-42d3-adf7-44e2d1b198c9" name="Default Changelist" comment="" />
+      <created>1577066200434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577066200434</updated>
+      <workItem from="1577066201834" duration="1906000" />
+      <workItem from="1577068391630" duration="2987000" />
+      <workItem from="1577503835677" duration="6692000" />
+      <workItem from="1577584094292" duration="4273000" />
+      <workItem from="1577670242710" duration="6609000" />
+      <workItem from="1578715238065" duration="11631000" />
+      <workItem from="1578794115591" duration="4672000" />
+      <workItem from="1579406778249" duration="5017000" />
+      <workItem from="1579507853867" duration="12111000" />
+      <workItem from="1579579241060" duration="27260000" />
+      <workItem from="1579921845806" duration="7507000" />
+      <workItem from="1579969255268" duration="1882000" />
+      <workItem from="1580003420054" duration="5708000" />
+      <workItem from="1580524041575" duration="2133000" />
+      <workItem from="1580611828643" duration="2863000" />
+      <workItem from="1580695614674" duration="4310000" />
+      <workItem from="1581130614424" duration="8265000" />
+      <workItem from="1581178258507" duration="2755000" />
+      <workItem from="1581302379358" duration="6626000" />
+      <workItem from="1581512548988" duration="5982000" />
+      <workItem from="1581562793777" duration="16983000" />
+      <workItem from="1581648415819" duration="15857000" />
+      <workItem from="1581689864501" duration="6835000" />
+      <workItem from="1581731988699" duration="8425000" />
+      <workItem from="1581818039417" duration="8693000" />
+      <workItem from="1581840038604" duration="16769000" />
+      <workItem from="1581949449343" duration="5482000" />
+      <workItem from="1582003886850" duration="4472000" />
+      <workItem from="1582080915776" duration="21995000" />
+      <workItem from="1582121643020" duration="7266000" />
+      <workItem from="1582198444082" duration="14971000" />
+      <workItem from="1582375115388" duration="3688000" />
+      <workItem from="1582429521941" duration="2968000" />
+      <workItem from="1582439960392" duration="8704000" />
+      <workItem from="1582451438432" duration="1496000" />
+      <workItem from="1582457426595" duration="1435000" />
+      <workItem from="1582459564935" duration="98000" />
+      <workItem from="1582459698434" duration="248000" />
+      <workItem from="1582463423787" duration="222000" />
+      <workItem from="1582465676909" duration="2966000" />
+      <workItem from="1582529463635" duration="626000" />
+      <workItem from="1582536825437" duration="1870000" />
+      <workItem from="1582709180879" duration="1539000" />
+      <workItem from="1582717246153" duration="5691000" />
+      <workItem from="1582727799846" duration="641000" />
+      <workItem from="1582791412981" duration="31000" />
+      <workItem from="1583242513649" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
